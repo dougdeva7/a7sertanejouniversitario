@@ -5,25 +5,25 @@ const benefits = [
   {
     icon: Radio,
     title: "Sertanejo em Sintonia",
-    description: "Conecte-se à nossa transmissão e curta o som da galera.",
+    description: "Uma rádio online para quem curte o som da galera.",
     color: "from-secondary/20 to-secondary/5",
   },
   {
     icon: Headphones,
-    title: "Música para Cantar Junto",
-    description: "Melodias e histórias que acompanham os seus momentos.",
+    title: "Música Pra Cantar Junto",
+    description: "Refrões marcantes e muita energia para acompanhar seu dia.",
     color: "from-primary/20 to-primary/5",
   },
   {
     icon: Globe,
-    title: "Conexão pela Internet",
-    description: "Acesse a rádio pela internet onde houver conexão.",
+    title: "Conexão Pela Internet",
+    description: "Acesse a transmissão online de onde houver conexão.",
     color: "from-secondary/20 to-secondary/5",
   },
   {
     icon: Smartphone,
     title: "Multiplataforma",
-    description: "Acesse pelo navegador ou conheça o aplicativo oficial.",
+    description: "Ouça pelo navegador ou acesse o aplicativo oficial.",
     color: "from-primary/20 to-primary/5",
   },
 ];

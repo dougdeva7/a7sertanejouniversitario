@@ -11,39 +11,39 @@ import content06 from "@/assets/content_06.webp";
 
 const cards = [
   {
-    title: "O Melhor do Sertanejo Universitário",
-    summary: "Os hits que conquistam as playlists e fazem a galera cantar junto.",
-    full: "Refrões que ficam na cabeça, violões cheios de ritmo e histórias que parecem falar com a gente: o sertanejo universitário combina energia e emoção. Das canções animadas às baladas românticas, o gênero encontra espaço nas playlists e nos encontros entre amigos. Na A7 Sertanejo Universitário FM, essa é a inspiração para a trilha sonora dos seus momentos.",
+    title: "Os Hits do Momento",
+    summary: "Os sucessos do sertanejo universitário que combinam com a sua vibe.",
+    full: "Tem música que começa a tocar e já muda o clima. O sertanejo universitário reúne refrões marcantes, melodias envolventes e aquela energia que faz todo mundo querer cantar junto. Na A7 Sertanejo Universitário FM, a música acompanha você em cada momento.",
     image: content01,
   },
   {
-    title: "A Evolução do Sertanejo",
-    summary: "Da tradição às novas gerações que transformaram o gênero.",
-    full: "O sertanejo se transforma sem perder o gosto por contar histórias. A viola, as vozes em dupla e as narrativas do cotidiano abriram caminho para novas sonoridades, arranjos e formas de cantar. O sertanejo universitário faz parte desse movimento brasileiro, aproximando o gênero de novas gerações com melodias envolventes e temas que acompanham a vida de quem ouve.",
+    title: "Só Dá Sertanejo",
+    summary: "Uma boa seleção sertaneja para acompanhar o seu dia.",
+    full: "Seja para começar o dia, trabalhar, relaxar ou aproveitar o tempo livre, sempre existe uma boa música sertaneja para entrar no clima. A A7 é sua companhia online para quem gosta do ritmo e não abre mão de uma boa trilha sonora.",
     image: content02,
   },
   {
-    title: "A Energia dos Grandes Shows",
-    summary: "Palcos, luzes, multidões e emoções inesquecíveis.",
-    full: "Quando a plateia canta o mesmo refrão, a música ganha outra dimensão. Violões, bandas e iluminação criam o cenário para encontros cheios de emoção nos shows sertanejos. Entre a expectativa do primeiro acorde e a vontade de ouvir mais uma, cada pessoa leva consigo uma lembrança diferente. É essa energia coletiva que faz dos grandes palcos uma experiência tão especial.",
+    title: "Aumenta o Som!",
+    summary: "Batidas animadas e refrões para levantar o astral.",
+    full: "Algumas músicas pedem volume mais alto. O sertanejo universitário tem ritmo, energia e refrões que transformam momentos comuns em boas lembranças. Aperte o play, aumente o som e aproveite.",
     image: content03,
   },
   {
-    title: "Violão, Voz e Emoção",
-    summary: "As melodias e histórias que fazem parte da nossa vida.",
-    full: "Às vezes, bastam uma voz e um violão para uma canção encontrar seu lugar na nossa memória. O sertanejo fala de encontros, saudade, recomeços e daqueles sentimentos difíceis de explicar. Entre acordes delicados e interpretações intensas, as músicas criam espaço para cantar junto ou simplesmente deixar a emoção acontecer.",
+    title: "Sertanejo Pra Curtir",
+    summary: "Boa música para encontros, viagens e momentos especiais.",
+    full: "Um encontro com os amigos, uma viagem de fim de semana ou um momento só seu. O sertanejo universitário combina com diferentes ocasiões e cria a trilha sonora perfeita para aproveitar a vida com leveza.",
     image: content04,
   },
   {
-    title: "Sucessos que Marcam Gerações",
-    summary: "Músicas que atravessam o tempo e continuam conquistando fãs.",
-    full: "Há canções que passam de uma geração para outra e novidades que logo se tornam parte da nossa história. Um refrão pode lembrar uma viagem, uma amizade ou um encontro especial. O sertanejo reúne essas memórias em um repertório vivo, em que diferentes épocas se encontram e cada ouvinte descobre novas razões para apertar o play.",
+    title: "Na Batida da Galera",
+    summary: "A energia do sertanejo que todo mundo gosta de cantar junto.",
+    full: "Tem refrão que une a galera e música que faz qualquer encontro ficar mais animado. É essa conexão que torna o sertanejo universitário tão presente no dia a dia de quem gosta de música e diversão.",
     image: content05,
   },
   {
-    title: "Festivais e Grandes Encontros",
-    summary: "A experiência de viver o sertanejo com a galera.",
-    full: "Reunir os amigos, conhecer novas músicas e cantar em coro: os festivais são feitos de momentos que vão além do palco. A música sertaneja acompanha esses encontros com alegria, romance e refrões que aproximam as pessoas. Seja em uma grande plateia ou em uma festa entre amigos, compartilhar uma boa canção é uma forma de criar novas lembranças.",
+    title: "Sua Rádio, Seu Ritmo",
+    summary: "Sertanejo universitário online para ouvir onde você quiser.",
+    full: "A A7 Sertanejo Universitário FM acompanha você pela internet. Acesse pelo site ou utilize o aplicativo oficial e curta a transmissão da rádio em seus momentos favoritos, com praticidade e liberdade.",
     image: content06,
   },
 ];
@@ -64,10 +64,10 @@ export function ContentCards() {
           className="text-center mb-14"
         >
           <h2 className="font-display text-3xl font-black text-foreground md:text-5xl tracking-tight">
-            A Experiência Sonora <span className="text-gradient-red">Definitiva</span>
+            Sertanejo Universitário <span className="text-gradient-red">do Seu Jeito</span>
           </h2>
           <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-            Do primeiro acorde à última nota. Um universo de histórias e emoções.
+            Uma trilha sonora para entrar no clima, curtir o momento e deixar a música rolar.
           </p>
         </motion.div>
 
@@ -81,15 +81,15 @@ export function ContentCards() {
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
               onClick={() => setSelected(i)}
-              className="card-3d group relative text-left h-72 cursor-pointer overflow-hidden rounded-2xl"
+              className="card-3d group relative text-left h-72 cursor-pointer overflow-hidden rounded-2xl bg-texas-dark"
             >
               <img
                 src={card.image}
                 alt={card.title}
                 loading="lazy"
-                width={800}
-                height={800}
-                className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                width={1200}
+                height={900}
+                className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-linear-to-t from-texas-dark via-texas-dark/10 to-transparent" />
               <div className="absolute bottom-0 p-6">
@@ -134,9 +134,11 @@ export function ContentCards() {
                       <img
                         src={cards[selected].image}
                         alt={cards[selected].title}
-                        className="h-56 w-full object-cover"
+                        width={1200}
+                        height={900}
+                        className="aspect-[4/3] w-full object-cover"
                       />
-                      <div className="absolute top-0 left-0 right-0 h-56 bg-linear-to-t from-card to-transparent" />
+                      <div className="absolute top-0 left-0 right-0 aspect-[4/3] bg-linear-to-t from-card to-transparent" />
                       <button
                         aria-label="Fechar conteúdo"
                         onClick={() => setSelected(null)}

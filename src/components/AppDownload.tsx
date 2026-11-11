@@ -22,8 +22,8 @@ export function AppDownload() {
               no Seu <span className="opacity-90">Bolso</span>
             </h2>
             <p className="mt-6 text-lg text-secondary-foreground/70 max-w-md">
-              Leve a A7 Sertanejo Universitário FM com você. Acesse a página oficial do aplicativo e
-              confira as opções para o seu dispositivo.
+              Leve a A7 Sertanejo Universitário FM com você. Acesse a transmissão pelo aplicativo e
+              continue curtindo o som da galera no seu dispositivo.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-3">
@@ -121,7 +121,7 @@ export function AppDownload() {
                 <div className="absolute inset-0 w-full h-full rounded-[38px] overflow-hidden z-20 mt-1">
                   <img
                     src={appPrint}
-                    alt="Prévia do aplicativo — imagem com atualização pendente"
+                    alt="Aplicativo oficial da A7 Sertanejo Universitário FM"
                     loading="lazy"
                     className="w-full h-full object-cover"
                   />

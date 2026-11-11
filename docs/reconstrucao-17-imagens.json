@@ -1,0 +1,376 @@
+[
+  {
+    "name": "hero_01",
+    "file": "src/assets/hero_01.webp",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "referenceDimensions": [
+      274,
+      243
+    ],
+    "nativeReconstructionDimensions": [
+      1672,
+      941
+    ],
+    "bytes": 188660,
+    "quality": 88,
+    "sha256": "8239d095ab7ad30a585e0de47b7583e894f7f6104a5065295bafb917027450d6",
+    "source": "exec-79631ec7-1c13-4cdd-b86f-ab6e09c65c62.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Use case: identity-preserve photo restoration and outpainting. Image 1 is the EXACT edit target, a low-resolution crop from an approved photographic mockup, not a loose style reference. Restore this same photograph at high photographic resolution. Preserve the SAME woman and her facial geometry, eyes, smiling open mouth and teeth, head tilt, brown wavy hair, brown cowboy hat, left arm raised to touch the hat, silver bracelets, thin necklace and black top. Preserve the exact pose, expression, clothing, accessories, golden side/backlight, green bokeh foliage and natural warm colors. Do not replace the person, change gaze, make her face camera, add people, change time of day or redesign the scene. Remove the dark filename label 'hero_01.jpg' at bottom and reconstruct ONLY the small patch of clothing/skin hidden by that label; do not retain any lettering, mockup frame or border. Deliver a clean horizontal 16:9 photograph intended for a 1920x1080 hero. To adapt this near-square reference, extend only the blurred foliage/background at the left and right edges, keeping the original portrait intact and centered, its head and raised hand fully inside the frame. Do not invent new foreground props or body gestures. Add plausible fine photographic detail to skin, cloth, hat and hair, without oversharpening, waxy skin or an illustrated look. Keep likeness and composition fidelity above aesthetic reinvention. No text, no logos, no watermark, no layout or filename labels. Output only this single photograph."
+  },
+  {
+    "name": "hero_02",
+    "file": "src/assets/hero_02.webp",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "referenceDimensions": [
+      270,
+      243
+    ],
+    "nativeReconstructionDimensions": [
+      1672,
+      941
+    ],
+    "bytes": 236882,
+    "quality": 88,
+    "sha256": "4c5b5c1638a117c797d460af7762db2fd7ba34a7b6b4ffc6c9c6507a74b7b39b",
+    "source": "exec-4ccca785-0eec-4713-a5db-bb74a6503822.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Restore Image 1 as the SAME photograph, not a new scene. The edit target is the attached crop: exactly three foreground friends outdoors at sunset, bearded man in black t-shirt and black sunglasses at left holding a plastic beer cup, long-haired woman in black sleeveless top and black sunglasses in middle laughing with head tilted back, bearded man in brown t-shirt and sunglasses at right holding his cup. Preserve their exact likenesses, three positions, head angles, smiles, teeth, hair, accessories, hand positions, cup contents, clothing and warm backlight. Keep the sun and foliage bokeh exactly in the same direction and the same background atmosphere. Remove only the bottom dark label 'hero_02.jpg' and faithfully fill the small obscured patch of clothing/cups from surrounding material. Restore fine photographic detail without altering facial geometry, smoothing faces into models, changing their expressions, or inventing objects. Deliver a high-resolution 16:9 image intended for 1920x1080. Extend blurred foliage/background modestly at left/right so all three existing people remain entirely readable; do not add people or new faces in extended space, change camera angle, crop existing faces or reinterpret the photograph. No filename, border, watermark or new text. This crop is the exact visual source; maximum fidelity is the priority.\n\nFidelity revision: Image 1 is the high-resolution edit target; Image 2 is the exact original approved low-resolution reference, used only to correct fidelity. Keep Image 1's exact three people, faces, expressions, positions, hair, sunglasses, cups, hands, colors, sunset, background, framing and all other pixels/objects. Correct ONLY the left man's clothing/accessories: the new orange paisley/floral pattern on his open overshirt is not in Image 2 and must be removed. Match the original plain very dark brown/charcoal open overshirt and black t-shirt, keeping the same folds, warm rimlight, cut and open-front shape. Do NOT remove the overshirt or change it to a new garment; remove its invented repeating print only. Remove the newly invented red beaded bracelet on his wrist, leaving natural bare wrist as it exits the original crop; do not add other jewelry. Do not change any face or any other clothing, subject, object, composition or light. Do not add text, labels, borders or watermarks. Preserve 16:9 and high photographic detail. Exact restoration correction, no redesign."
+  },
+  {
+    "name": "hero_03",
+    "file": "src/assets/hero_03.webp",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "referenceDimensions": [
+      272,
+      243
+    ],
+    "nativeReconstructionDimensions": [
+      1672,
+      941
+    ],
+    "bytes": 303904,
+    "quality": 88,
+    "sha256": "51171713d68efd00b0cc9403b5da0006c11adf691340616df892d0ea72bfd121",
+    "source": "exec-bafed520-eae5-4450-bcdf-2f63b37bd4ae.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Image 1 is a precise restoration target: an intimate close-up of the same acoustic guitar and the musician's forearm and hand. Preserve the natural amber acoustic guitar body, sound hole, dark speckled pickguard, strings, black shirt at top, blue denim at lower right, and exactly the existing arm/hand pose over the strings. Do not reveal the musician's face, replace the guitar, change its color, add another instrument or invent a second hand. Keep the same diagonal perspective, tight musical framing and golden outdoor light. Remove the black filename label 'hero_03.jpg' at bottom by reconstructing only the guitar/denim region it covers, leaving all unobscured reference content unchanged. Restore plausible wood grain, cloth and anatomical detail, correct only obvious pixel artifacts, without oversharpening. Produce a clean high-definition horizontal 16:9 photograph for 1920x1080, expanding only existing background or continuing the already-visible instrument at edges where necessary. Preserve proportions of strings, guitar, wrist and fingers; no new gestures, no fake hardware lettering, no logos, no border, no caption, no artistic color grading."
+  },
+  {
+    "name": "hero_04",
+    "file": "src/assets/hero_04.webp",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "referenceDimensions": [
+      272,
+      243
+    ],
+    "nativeReconstructionDimensions": [
+      1672,
+      941
+    ],
+    "bytes": 173364,
+    "quality": 88,
+    "sha256": "502c179263efb9d58f93aa212d3c314f6ad78dc850977cdd127ace5ec2e7f2f7",
+    "source": "exec-45844dfd-a009-4d89-9ab9-4bee7e8fabfe.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Perform faithful photographic restoration of Image 1, the exact approved reference. Keep the SAME young man with swept-up brown hair, short beard, black sunglasses, small black WIRED in-ear earbuds and plain white v-neck t-shirt, smiling and looking upward to the right. Preserve his face, mouth shape, teeth, upward gaze, head tilt, earbud wire, shirt neckline, skin tone, bright blue sky and soft palm/foliage bokeh. Do not replace him, change his hair, turn him toward camera, give him over-ear headphones, add a hat, or change the time of day. Remove only the dark bottom label 'hero_04.jpg', restoring the white t-shirt and cable underneath plausibly. Increase realistic fine photographic definition without synthetic plastic skin. Output horizontal 16:9, high resolution suitable for 1920x1080. Extend blue sky and blurred vegetation laterally around the intact existing portrait, keeping him central and his head/earbuds fully visible; no new people or objects. Preserve the original natural warm sunlight and cool sky balance. No typography, logos, filename, frame or watermark."
+  },
+  {
+    "name": "hero_05",
+    "file": "src/assets/hero_05.webp",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "referenceDimensions": [
+      272,
+      243
+    ],
+    "nativeReconstructionDimensions": [
+      1672,
+      941
+    ],
+    "bytes": 272680,
+    "quality": 88,
+    "sha256": "4c771eb56301a0634778936ae813c4daf9bc003a728f0c5906d3530bed10c046",
+    "source": "exec-49ffca3c-8349-44d2-8f5f-2254103661dd.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Use Image 1 as an exact photo edit/restoration target. Reconstruct this same night-party photograph with its SAME people and composition: woman in profile laughing at far left, smiling long-haired woman looking upward in front center, bearded man with dark sunglasses behind/right in dark shirt and open patterned overshirt. Preserve the same partially visible blurred background partygoers and the raised background hand at upper left; do not add any person or replace any face. Keep facial proportions, gestures, expressions, clothing, earrings, hairstyle, hanging warm-white string lights, dark evening background and small blue/purple lights. Remove the bottom filename label 'hero_05.jpg' and repair only the obscured clothing patch. Enhance photographic detail and correct minor low-resolution artifacts without beautifying or changing faces. Adapt to high-resolution horizontal 16:9 for 1920x1080 by continuing only existing dark background/string-light atmosphere at edges. Keep all original foreground faces visible and preserve their relative positions, lens perspective and original warm/cool color balance. No new crowd, different clothes, daylight, new lettering, branding, border, filename label or watermark. Fidelity above reinvention.\n\nFidelity revision: Image 1 is the high-resolution edit target. Image 2 is the ORIGINAL approved reference for people count and scene fidelity. Preserve Image 1's three foreground people exactly: left laughing woman, center laughing woman in patterned light top, right sunglasses man in dark plaid overshirt, including exact faces, hair, gestures, clothes, relative positions, skin, lighting and framing. Preserve the original background man immediately behind the left woman, the original partially visible background person behind the right man, and the raised background hand seen in Image 2. Correct ONLY invented people in the widened outer margins: remove the extra cropped background person at the extreme LEFT edge and the extra farther-right background face/person at the extreme RIGHT edge that are not in Image 2. Fill those peripheral patches with continuation of the existing dark foliage and defocused colored party lights, NOT new silhouettes, heads or faces. Do not remove any of the original five visible people. Do not change the original string lights, main scene, expression, clothes, colors, time of day, perspective or any other feature. No new objects, no lettering, filenames, frame or watermark. Retain high-resolution 16:9."
+  },
+  {
+    "name": "hero_06",
+    "file": "src/assets/hero_06.webp",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "referenceDimensions": [
+      272,
+      243
+    ],
+    "nativeReconstructionDimensions": [
+      1672,
+      941
+    ],
+    "bytes": 129648,
+    "quality": 88,
+    "sha256": "db02b0f9527eff5eea0c579edca986de414698d30cf7dcc0bb55971c08deae3b",
+    "source": "exec-4c6389cb-1e5d-4ec6-849e-ceff796f9c7b.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Restore this exact object photograph from Image 1: the same weathered brown cowboy hat with its specific creases, bent brim and narrow decorative hatband resting on the same rough upright wooden fence post. Preserve hat outline, band, worn felt texture, post grain and vertical position, receding wooden fence rails, blurred countryside horizon and round bright setting sun to the right. The approved orange/gold sunset light and sky gradient must stay as they are, with the same depth of field and camera viewpoint. No people, additional hats, new objects or altered scenery. Remove the small black 'hero_06.jpg' filename overlay at the bottom and reconstruct only the covered post/fence/background portion. Restore real felt and wood detail with natural photographic sharpness, not painterly texture. Export a high-resolution horizontal 16:9 photograph intended for 1920x1080; continue only the existing fence/blurred horizon to either side as needed, without changing the central hat/post composition or cutting the brim. No captions, logos, mockup frame, borders, new text or watermark."
+  },
+  {
+    "name": "content_01",
+    "file": "src/assets/content_01.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "referenceDimensions": [
+      274,
+      216
+    ],
+    "nativeReconstructionDimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 102418,
+    "quality": 88,
+    "sha256": "960cfdd8fe8e4806f746e6bea194b35a8327a1e724c6ee29988967748e2f295e",
+    "source": "exec-fc91f005-8ade-4f23-aa78-3f507565dfd2.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Image 1 is the exact reference for photographic reconstruction: the SAME pair of black over-ear studio headphones lying on the same audio mixing console, earcups angled toward camera, with the same blurred orange audio waveform monitor behind and violet/blue/pink LED atmosphere. Preserve headphone shape, headband, cables, earcup positions, console controls, monitor layout, camera angle, depth of field and every original color relationship. Remove the bottom filename strip 'content_01.jpg' and infer only the small covered console patch from surrounding faders/buttons. Recover convincing high-resolution detail in leather, metal, plastic, LEDs and controls without inventing new equipment, words or logos. Target 1200x900, landscape 4:3, using only minimal edge continuation required from this near-4:3 reference. Do not redesign the studio, add people, introduce red grading, change light colors, blur existing headphones or replace objects. Output one clean faithful photograph without labels, white separators, border, watermark or readable UI lettering."
+  },
+  {
+    "name": "content_02",
+    "file": "src/assets/content_02.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "referenceDimensions": [
+      270,
+      216
+    ],
+    "nativeReconstructionDimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 218292,
+    "quality": 88,
+    "sha256": "981e136053c284e47954f094f99a8a6ccb6cdb5c722f22da3541bf6747097bcb",
+    "source": "exec-47d29014-5dc7-45c1-9711-fc629982d388.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Faithfully restore Image 1, a close portrait of the SAME young man in the SAME large brown felt cowboy hat and blue/gray checked shirt, short curly brown hair and trimmed beard, laughing/smiling and looking up to the right. Preserve facial geometry, brow, teeth, ear, hat creases and tilt, plaid pattern, pose and the exact warm sunlight against green foliage bokeh. Do not substitute the man, change his expression, hat, hairstyle, clothes, camera viewpoint or background. Remove only the dark bottom filename label 'content_02.jpg', reconstructing the shirt beneath it. Recover natural fine facial, felt and fabric detail; correct small pixel artifacts without smoothing into plastic skin or changing his features. Deliver high-resolution 4:3 landscape, 1200x900 target. Only minimally continue existing bokeh at the side edges so the original portrait remains intact, preserving the hat brim and face. No additional people, instruments, glasses, logos, filename labels, border, typography or watermark. Same photograph, not an artistic reinterpretation."
+  },
+  {
+    "name": "content_03",
+    "file": "src/assets/content_03.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "referenceDimensions": [
+      272,
+      216
+    ],
+    "nativeReconstructionDimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 129536,
+    "quality": 88,
+    "sha256": "1602c3b78726b91dd8ea9294c7aef9171e7267fbcd807d16c0184de3ef91596c",
+    "source": "exec-464ab0a2-f785-4f80-b5a6-fe80cb6eea6f.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Restore the attached Image 1 as the exact same daylight photograph. Preserve the SAME long-haired woman with black sunglasses, silver/gray over-ear headphones, head tipped upward, broad joyful smile, and BOTH hands cupping the earcups in their original positions. Preserve her face, teeth, head angle, hairstyle, fingers, bare shoulders and black straps, headphone design, green leafy bokeh and golden side/backlighting. Do not replace her face, lower her head, alter her smile, change clothing, remove a hand, or introduce a different background. Remove the bottom black label 'content_03.jpg', repairing only the covered upper torso/clothing naturally. Restore coherent skin, hair, metal earcup and fabric detail with natural sharpness; fix only unmistakable anatomical artifacts. Produce one faithful high-resolution 4:3 photograph for 1200x900, with minimal lateral background continuation if needed and all important head/hand elements preserved. No new people, new objects, different color grading, signs, logos, frames, filenames or watermark.\n\nFidelity revision: Image 1 is the high-resolution edit target and Image 2 is its original low-resolution photographic reference. Keep Image 1 exactly the same woman, face, smile, head tilt, sunglasses, both hands, headphones, hair, skin texture, green bokeh, light, colors and 4:3 composition. Correct ONLY invented clothing/jewelry details: replace the newly invented gray zigzag pattern on the visible top straps with plain solid black fabric matching the original simple black top in Image 2. Remove the newly inferred gold pendant and chain on the chest, filling that small area with the same natural skin; the filename-obscured region of the reference is not permission to invent jewelry. Do not alter the headphones, face, hands, expression or anything else. This is a tiny fidelity correction, not a new photograph. Retain natural high-definition texture. No new clothes, jewelry, words, logos, border or watermark."
+  },
+  {
+    "name": "content_04",
+    "file": "src/assets/content_04.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "referenceDimensions": [
+      272,
+      216
+    ],
+    "nativeReconstructionDimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 189238,
+    "quality": 88,
+    "sha256": "68aa8369af741baf4cb1f6582256c1dde2aa42b58112d9a9f81ce0ba7ff3bfc9",
+    "source": "exec-c8c63ec3-0c96-4af0-8f5e-0abc42dacd30.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Reconstruct Image 1 with maximum photographic fidelity. It shows exactly three existing foreground friends sitting outside in warm daylight: bearded man at left in black sunglasses and black t-shirt, blue jeans and original hand/cup pose; laughing woman in center wearing brown hat, black sleeveless top and sunglasses, holding a clear drink glass; the same partially cropped bearded man in brown shirt and sunglasses at right with his drink. Preserve all three identities, poses, expressions, accessories, cups, original partial cropping and green foliage background. Do not replace any face, add friends, rearrange seating or change clothing. Preserve the tiny orange shirt accent but do not make a readable brand word. Remove only the dark label 'content_04.jpg' along bottom and reconstruct the jeans/clothing it covers. Recover realistic texture and natural hands without over-retouching faces. Target high-resolution landscape 4:3, 1200x900, by minimal edge continuation from the actual crop; do not expand into a new scene. No new writing, filename labels, white border, watermark or unrelated props."
+  },
+  {
+    "name": "content_05",
+    "file": "src/assets/content_05.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "referenceDimensions": [
+      272,
+      216
+    ],
+    "nativeReconstructionDimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 146948,
+    "quality": 88,
+    "sha256": "d1fdb50cf4233c837d0c2e34381b9c9183f5323ad7673f53a2bf17b47d304a99",
+    "source": "exec-0fedf380-bde5-4929-b88a-b0868875838b.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Image 1 is the exact approved night-party photo to restore. Preserve the central young man with short dark curly hair, black sunglasses, black shirt, head tilted back laughing and one arm raised toward the upper-left edge. Preserve the smiling woman in the lower-left foreground, the woman laughing in right profile, all original partial background faces, glass cups and clapping/raised-arm fragments exactly where they are. Keep their facial geometry, gestures, hairstyles, earrings, clothes, expressions and original magenta/blue/amber night lighting and warm string-light bokeh. Do not add a person, remove a person, substitute faces, change camera angle or invent new props. Remove only the bottom filename label 'content_05.jpg' and reconstruct the small clothing/glass region behind it. Increase believable photographic detail and correct obvious artifacts, preserving honest human texture and the original colors. Deliver 1200x900 target, 4:3 landscape, with only the slight edge continuation needed. No collage panels, text, logos, new signs, filename, borders or watermark.\n\nFidelity revision: Image 1 is the high-resolution edit target; Image 2 is the exact original approved crop. Correct only the central man's clothing/accessories to match Image 2: remove the newly invented open RED PLAID OVERSHIRT, leaving the same simple solid BLACK T-SHIRT as in the original, including its original neckline and raised-arm sleeve. Do not add a jacket, new pattern or different garment. Remove the newly invented dog-tag pendant/chain and wristwatch where they were inferred beyond the filename-obscured region; keep bare natural skin/wrist and the exact same hand holding the cup. Preserve EVERY face, sunglasses, hair, tooth/smile shape, raised arm pose, skin, nearby women, background people, cups, earrings already visible in the original, camera, 4:3 composition, night lighting and colors of Image 1 unchanged. No added or removed people. Do not reinterpret anything else. Keep photographic detail without oversharpening. No filename label, extra words, logos, border or watermark."
+  },
+  {
+    "name": "content_06",
+    "file": "src/assets/content_06.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "referenceDimensions": [
+      272,
+      216
+    ],
+    "nativeReconstructionDimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 82538,
+    "quality": 88,
+    "sha256": "152ef28307dcfe420d8952cf8c2637048f3abf9fdf3df2d764e635254fc04dd8",
+    "source": "exec-da557df4-97a6-447c-bc98-6490b621a04f.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Make a faithful high-definition restoration of this exact smartphone photograph from Image 1. Preserve the SAME hand and fingers gripping the same black phone with its existing diagonal tilt, rounded black frame and screen cutout. Preserve the black music interface with a large orange waveform, thin progress bar, orange circular play icon and small white playback controls in the same positions. Do not invent a radio name, song title, logo, advertisement, new interface or different phone. Keep the soft outdoor green/gold bokeh, same sunlight, wrist/sleeve and camera perspective. Remove only the black filename label 'content_06.jpg' at the bottom and reconstruct the underlying hand/phone area from the surrounding reference. Recover real glass, skin and metal detail, correct small digit artifacts without changing the grip. Output one high-resolution 4:3 landscape photo intended for 1200x900 with slight background continuation only. No added lettering anywhere, no filename, no mockup border, no watermark, no new props or people."
+  },
+  {
+    "name": "player_bg",
+    "file": "src/assets/player_bg.webp",
+    "dimensions": [
+      1600,
+      900
+    ],
+    "referenceDimensions": [
+      534,
+      217
+    ],
+    "nativeReconstructionDimensions": [
+      1672,
+      941
+    ],
+    "bytes": 115118,
+    "quality": 88,
+    "sha256": "dfec7a76c83e2a1fe98d7b8318c33653ba38f2b4b575dba053ff956f981bd223",
+    "source": "exec-a037dc2b-77ac-4485-8dfc-33e11946d455.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Photographically restore the exact concert audience image in Image 1, not a generic replacement concert. Keep the SAME foreground crowd silhouettes, every prominent raised hand and arm in its original position, the same dark heads across the bottom, distant blurred stage and the exact arrangement of bright blue beams, amber/orange spots, pink/violet haze and white bokeh. Preserve camera height within the audience, lens perspective, energetic atmosphere and color balance. Do not add performers, introduce new faces, rearrange the crowd or change lighting colors. Remove the filename overlay 'player_bg.jpg' along the lower center and reconstruct only the obscured crowd silhouettes. Enhance fine photographic detail without sharpening the intentionally blurred background into invented people. Target a clean high-resolution 16:9 photo at 1600x900. The reference is wider: preserve its entire main horizontal composition by modestly extending the existing dark crowd at bottom and stage-light haze above; no new scene elements. No letters, words, logos, banners, border, filename strip or watermark. This exclusive photo must remain the same as this reference."
+  },
+  {
+    "name": "about_studio",
+    "file": "src/assets/about_studio.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "referenceDimensions": [
+      538,
+      217
+    ],
+    "nativeReconstructionDimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 128892,
+    "quality": 88,
+    "sha256": "5bef1eeaf0a04bfbb8ba393d5803d6e2085cf568a399a8036223c659049a31f4",
+    "source": "exec-2f0c2e7b-fa27-49e0-aa73-6859cd30f545.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Restore the attached Image 1 exactly as an approved radio-studio photograph. Preserve the SAME large horizontal silver broadcast microphone in its black shock mount with black foam windshield at right, black vertical boom/stand and cabling at left, black over-ear headphones resting on desk in lower left, blue waveform screen behind/right, mixing console controls at lower right, dark acoustic panels and warm blurred lights at left. Preserve the red physical ON AIR sign in its original upper-right position; that sign is an original photographed scene object, NOT the filename overlay. Remove only the dark bottom overlay 'about_studio.jpg', reconstructing the desk and console beneath it. Retain camera angle, depth of field, all object proportions, exact warm/cool lighting balance and equipment layout. Reconstruct fine metal, foam and leather detail without replacing objects or adding new equipment. Target 1200x900, 4:3. Since the reference is panoramic, extend only existing acoustic-panel space above and existing desk surface below as needed, preserving the main central scene intact. No new people, logos, fabricated UI words, borders, file labels or watermark."
+  },
+  {
+    "name": "momento_descansa",
+    "file": "src/assets/momento_descansa.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "referenceDimensions": [
+      552,
+      217
+    ],
+    "nativeReconstructionDimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 159136,
+    "quality": 88,
+    "sha256": "ff1da5f2038ee84a9c4001d7c527558bcc59f5c1386e3ab38fb95278215da07c",
+    "source": "exec-be27f0ab-0654-46bb-82c9-829bce61631d.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Faithful restoration/outpainting of the exact photograph in Image 1. Preserve the SAME young bearded man with wavy dark hair, closed eyes and relaxed mouth, black over-ear headphones and white v-neck shirt, reclining on a light sofa with BOTH arms folded behind his head. Preserve his facial geometry, head angle, expression, both elbow positions, shirt folds, gray patterned cushion at left, bright window and green plants in the original warm daylight. Do not replace the man, change his pose, open his eyes, add people, change clothes or turn this into a different room. Remove the dark filename 'momento_descansa.jpg' and reconstruct only the small white-shirt patch hidden by it. Restore natural hair, skin, fabric and headphone detail without plastic smoothing. Target 1200x900 landscape 4:3. Preserve the whole original panoramic subject band and extend only the existing room/window above and couch fabric below as necessary, without inventing new limbs or changing gestures. No new props, captions, branding, border or watermark.\n\nFidelity revision: Image 1 is the restoration edit target and Image 2 is the original approved reference. Make ONLY this tiny fidelity correction: remove the newly inferred small gold/metallic symbol or brand badge from the visible headphone earcup, leaving a plain matte black unbranded earcup surface like the reference. Preserve the exact man, face, relaxed closed-eye expression, dark hair, beard, both arms behind head, shirt, cushion, room, plants, sunlight, composition, 4:3 framing and every other feature of Image 1. Do not alter or beautify any face or change headphone shape. No new text, logo, filename label, watermark or other edits."
+  },
+  {
+    "name": "momento_estrada2",
+    "file": "src/assets/momento_estrada2.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "referenceDimensions": [
+      534,
+      206
+    ],
+    "nativeReconstructionDimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 79178,
+    "quality": 88,
+    "sha256": "db0a3793f7fa1501eb702272a7a2d6e7e4a0e449d81f165bf4467e20841b8614",
+    "source": "exec-3b57730e-361f-47a2-bd5c-f8e28c979106.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Use Image 1 as an exact photographic reconstruction target. Preserve the view from inside the SAME car: driver's partially visible dark-haired head and shoulder at far left, same hand resting on upper steering wheel, dark steering wheel and dashboard, windshield framing and rear-view mirror at top. Keep the same straight road receding to the central horizon, lane markings, green roadside trees/fields, and bright low sun ahead casting gold light through the windshield. Do not reveal a new face, add passengers or vehicles, change the driver's grip, alter the road, camera position or sunset time. Remove only the black filename label 'momento_estrada2.jpg', reconstructing dashboard material underneath. Restore plausible glass, skin, dashboard and road detail without false lettering or new screens. Output high-definition 1200x900 target in 4:3. To adapt the wide crop, extend existing dark roof/windshield margin above and existing dashboard below while preserving the entire original visible scene and road perspective. No logos, captions, filenames, borders, watermark or artistic recoloring.\n\nFidelity revision: Image 1 is the high-resolution restoration edit target; Image 2 is the exact approved panoramic reference. Correct only details invented in expanded areas: remove the visible gold eyeglass frame added to the driver, preserving the same partial rear-side head silhouette, ear, hair, face visibility, pose and driving hand; no glasses or new accessories should be inferred. Replace the newly invented ceiling control/light console above the rear-view mirror with continuation of the same plain dark textured headliner. In the lower expanded dashboard area, replace the newly invented three climate-control knobs/panel with a continuation of plain dark dashboard trim; preserve the original central vents and hazard button already visible in the reference. Do not change the steering wheel, mirror, original windshield framing, road, lane markings, sun, fields, driver's position, hand grip, camera, colors, sunset or 4:3 composition. Preserve every original observed object, person and light exactly. Do not add any new objects, controls, people, cars, text, logos or labels. Photorealistic local fidelity corrections only."
+  },
+  {
+    "name": "momento_festa",
+    "file": "src/assets/momento_festa.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "referenceDimensions": [
+      538,
+      206
+    ],
+    "nativeReconstructionDimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 194120,
+    "quality": 88,
+    "sha256": "b6a0d9bc5153091cb7f5a04fef0f5f0afe58b14da92b3aebd65298245c798c34",
+    "source": "exec-c6e64b2d-b45e-4e37-bdea-f81d2e30d9c6.png",
+    "method": "image_gen edit with the corresponding original crop; label removal, detail reconstruction and necessary edge extension; final WebP export",
+    "prompt": "Restore this SAME warm night-party photograph from Image 1 with maximal identity and scene fidelity. Preserve the four main friends in their exact relative positions: long-haired woman in dark straps at far left laughing toward center; woman in the middle with brown hat, long highlighted hair and black top, head tilted back laughing; bearded man behind/right with black sunglasses and dark patterned open shirt over black top; long-haired woman in light blouse at far right laughing toward center. Preserve the partially visible background person at the far-left edge and all existing hanging warm bulbs, orange bokeh and small blue/purple night accents. Keep faces, smiles, teeth, hair, accessories, clothing, gestures and camera viewpoint unchanged. Do not add/remove people or invent new hands. Remove only the bottom dark overlay 'momento_festa.jpg' and restore the small clothing area it covers. Reconstruct fine photographic details naturally without oversharpening or beauty redesign. Target 1200x900 in 4:3; extend only existing dark party background above and existing clothing below as needed from this panoramic reference, preserving all original faces and their spacing. No new objects, text, brands, frame or watermark.\n\nFidelity revision: Image 1 is the high-resolution edit target. Image 2 is the exact approved original crop. Correct ONLY additions invented below the original crop while expanding to 4:3: remove the newly added clear beer cup and the new hand holding it in front of the woman on the RIGHT. Restore that area with continuation of her original light patterned blouse and natural hair/torso, without revealing any new hand pose or inventing new objects. Remove the large new ornate belt buckle and belt from the center woman's lower torso; continue the original plain black top/clothing down to the lower frame edge, without new jewelry or accessories. Preserve the exact four main faces and the original partially visible background people, their expressions, mouth/teeth, head angles, brown hat, hairstyles, existing necklaces, original clothes and patterns, relative positions, warm hanging lights, camera, night colors and all other observed features. Do not change any face, light, composition or other prop. Fidelity correction only, no new people, words, filename labels, frame or watermark. Keep high-resolution 4:3."
+  }
+]

@@ -18,7 +18,9 @@ export function Footer() {
             <p className="font-display text-lg font-bold text-primary-foreground/80 tracking-wide">
               O som da galera
             </p>
-            <p className="text-lg text-primary-foreground/40">On-line do Brasil para o Mundo!</p>
+            <p className="text-lg text-primary-foreground/40">
+              Seu sertanejo universitário, onde você estiver.
+            </p>
 
             <div
               className="w-full my-8 pt-6 border-t border-current/10 text-center"

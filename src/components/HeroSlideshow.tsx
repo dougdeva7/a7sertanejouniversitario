@@ -2,14 +2,18 @@ import { useState, useEffect } from "react";
 import { useReducedMotion, motion, AnimatePresence } from "framer-motion";
 import hero01 from "@/assets/hero_01.webp";
 import hero02 from "@/assets/hero_02.webp";
+import hero03 from "@/assets/hero_03.webp";
+import hero04 from "@/assets/hero_04.webp";
 import hero05 from "@/assets/hero_05.webp";
 import hero06 from "@/assets/hero_06.webp";
 
 const slides = [
-  { image: hero01, alt: "Palco sertanejo com luzes vermelhas e douradas" },
-  { image: hero02, alt: "Violão sertanejo e animação" },
-  { image: hero05, alt: "Dupla sertaneja com violões no palco" },
-  { image: hero06, alt: "Festival de música ao pôr do sol" },
+  { image: hero01, alt: "Mulher sorrindo com chapéu em luz de fim de tarde" },
+  { image: hero02, alt: "Três amigos sorrindo ao ar livre" },
+  { image: hero03, alt: "Detalhe de um violão sendo tocado" },
+  { image: hero04, alt: "Homem ouvindo música com fones ao ar livre" },
+  { image: hero05, alt: "Amigos se divertindo sob luzes de festa" },
+  { image: hero06, alt: "Chapéu sobre uma cerca ao pôr do sol" },
 ];
 
 export function HeroSlideshow() {
@@ -26,7 +30,10 @@ export function HeroSlideshow() {
   }, [reducedMotion]);
 
   return (
-    <section id="hero" className="relative min-h-screen flex flex-col overflow-hidden">
+    <section
+      id="hero"
+      className="relative min-h-screen flex flex-col overflow-hidden bg-texas-dark"
+    >
       <AnimatePresence initial={false}>
         <motion.div
           key={current}
@@ -34,12 +41,12 @@ export function HeroSlideshow() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
-          className="absolute inset-0"
+          className="absolute inset-x-0 bottom-0 top-24 sm:top-28 xl:inset-0"
         >
           <img
             src={slides[current].image}
             alt={slides[current].alt}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-contain object-top xl:object-cover xl:object-center"
             width={1920}
             height={1080}
           />
@@ -84,8 +91,8 @@ export function HeroSlideshow() {
           transition={{ delay: 0.7 }}
           className="mt-6 max-w-lg text-base text-primary-foreground/70 font-normal tracking-wide md:text-lg"
         >
-          A7 Sertanejo Universitário FM. Os sucessos que embalam a galera, com muita música e
-          energia para acompanhar você em todos os momentos.
+          Os sucessos do sertanejo universitário em uma rádio feita para acompanhar você. Dê o play
+          e curta sua música onde estiver.
         </motion.p>
 
         <motion.a

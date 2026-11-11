@@ -19,13 +19,13 @@ export function AboutSection() {
             Sua playlist sertaneja <span className="text-gradient-red">não tem fim</span>
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-primary-foreground/70">
-            A A7 Sertanejo Universitário FM é o lugar de quem vive a música sertaneja. Dos sucessos
-            que dominam as playlists às canções que fazem todo mundo cantar junto, nossa programação
-            leva o melhor do sertanejo universitário até você.
+            Tem sempre uma boa música para combinar com o seu momento. A A7 Sertanejo Universitário
+            FM reúne a energia e o estilo do sertanejo universitário em uma experiência online feita
+            para quem gosta de ouvir, cantar junto e aproveitar.
           </p>
           <p className="mt-4 text-base text-primary-foreground/50">
-            Uma trilha sonora para acompanhar sua rotina, seus encontros, suas viagens e os momentos
-            que merecem uma boa música.
+            Em casa, no trabalho, na estrada ou com os amigos, dê o play e deixe o som da galera
+            acompanhar você.
           </p>
           <a
             href="#player"
