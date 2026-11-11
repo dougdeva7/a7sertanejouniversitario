@@ -33,7 +33,7 @@ export function MomentsGrid() {
           viewport={{ once: true }}
           className="text-center mb-14"
         >
-          <h2 className="font-display text-3xl font-black text-foreground md:text-5xl tracking-tight">
+          <h2 className="font-editorial text-3xl font-bold text-foreground md:text-5xl tracking-tight">
             Música Para Todos os Seus <span className="text-gradient-red">Momentos</span>
           </h2>
         </motion.div>
@@ -58,7 +58,7 @@ export function MomentsGrid() {
               />
               <div className="absolute inset-0 bg-linear-to-t from-texas-dark/70 via-texas-dark/10 to-transparent" />
               <div className="absolute bottom-0 p-8">
-                <h3 className="font-display text-2xl font-black text-primary-foreground">
+                <h3 className="font-editorial text-2xl font-bold text-primary-foreground">
                   {m.title}
                 </h3>
                 <p className="mt-2 text-sm text-primary-foreground/70">{m.description}</p>

@@ -74,13 +74,13 @@ export function HeroSlideshow() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="font-display text-4xl font-black leading-[1.05] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl"
+          className="font-headline text-4xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl"
         >
           <span className="block">Aqui o sertanejo</span>
           <span className="block mt-2">
             <span className="text-gradient-red">não para!</span>
           </span>
-          <span className="block text-2xl sm:text-3xl md:text-4xl text-primary-foreground font-sans font-light tracking-normal mt-2 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+          <span className="block text-2xl sm:text-3xl md:text-4xl text-primary-foreground font-editorial font-bold tracking-normal mt-2 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
             O som da galera
           </span>
         </motion.h1>

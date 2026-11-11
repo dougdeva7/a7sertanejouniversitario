@@ -3,7 +3,7 @@ export function InstagramSection({ profileUrl, handle }: { profileUrl?: string; 
   if (!profileUrl || !handle) return null;
   return (
     <section className="py-20 text-center">
-      <h2 className="font-display text-3xl font-bold">Siga a A7 Sertanejo Universitário FM</h2>
+      <h2 className="font-headline text-3xl font-bold">Siga a A7 Sertanejo Universitário FM</h2>
       <a
         className="mt-6 inline-block text-secondary"
         href={profileUrl}

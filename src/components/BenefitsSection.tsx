@@ -40,9 +40,9 @@ export function BenefitsSection() {
           viewport={{ once: true }}
           className="text-center mb-14"
         >
-          <h2 className="font-display text-3xl font-black text-foreground md:text-5xl tracking-tight">
-            Por Que Ouvir a <span className="text-gradient-red">A7 Sertanejo Universitário FM</span>
-            ?
+          <h2 className="font-editorial text-3xl font-bold text-foreground md:text-5xl tracking-tight">
+            Por Que Ouvir a{" "}
+            <span className="font-headline text-gradient-red">A7 Sertanejo Universitário FM</span>?
           </h2>
         </motion.div>
 
@@ -63,7 +63,7 @@ export function BenefitsSection() {
                 >
                   <Icon className="h-7 w-7 text-secondary" strokeWidth={2} />
                 </div>
-                <h3 className="font-display text-lg font-bold text-foreground">{b.title}</h3>
+                <h3 className="font-editorial text-lg font-bold text-foreground">{b.title}</h3>
                 <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
                   {b.description}
                 </p>

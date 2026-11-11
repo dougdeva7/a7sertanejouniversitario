@@ -1,4 +1,5 @@
 import clubeLogo from "@/assets/cluberadios.webp";
+import { RadioName } from "@/components/RadioName";
 
 export function Footer() {
   return (
@@ -15,7 +16,7 @@ export function Footer() {
               height={256}
               className="h-36 w-36 object-contain sm:h-40 sm:w-40"
             />
-            <p className="font-display text-lg font-bold text-primary-foreground/80 tracking-wide">
+            <p className="font-editorial text-lg font-bold text-primary-foreground/80 tracking-wide">
               O som da galera
             </p>
             <p className="text-lg text-primary-foreground/40">
@@ -26,7 +27,7 @@ export function Footer() {
               className="w-full my-8 pt-6 border-t border-current/10 text-center"
               aria-label="Parceiros"
             >
-              <h3 className="mb-5 text-base font-semibold">Parceiros</h3>
+              <h3 className="mb-5 font-editorial text-base font-bold">Parceiros</h3>
               <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6">
                 <a
                   key="myTuner Radio"
@@ -107,8 +108,7 @@ export function Footer() {
             </div>
             <div className="w-full border-t border-primary-foreground/10 pt-8 mt-4">
               <p className="text-xs text-primary-foreground/30">
-                © {new Date().getFullYear()} A7 Sertanejo Universitário FM. Todos os direitos
-                reservados.
+                © {new Date().getFullYear()} <RadioName />. Todos os direitos reservados.
               </p>
               <p className="mt-2 text-xs text-primary-foreground/20">
                 Desenvolvido por{" "}

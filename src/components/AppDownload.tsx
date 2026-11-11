@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { RadioName } from "@/components/RadioName";
 
 const downloadLink = "https://player.svrdedicado.org/player-app-multi-plataforma/7752";
 import appPrint from "@/assets/app-print.webp";
@@ -16,14 +17,14 @@ export function AppDownload() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="font-display text-4xl font-black text-secondary-foreground md:text-5xl tracking-tight leading-tight">
+            <h2 className="font-headline text-4xl font-bold text-secondary-foreground md:text-5xl tracking-tight leading-tight">
               A Rádio Que Pulsa
               <br />
               no Seu <span className="opacity-90">Bolso</span>
             </h2>
             <p className="mt-6 text-lg text-secondary-foreground/70 max-w-md">
-              Leve a A7 Sertanejo Universitário FM com você. Acesse a transmissão pelo aplicativo e
-              continue curtindo o som da galera no seu dispositivo.
+              Leve a <RadioName /> com você. Acesse a transmissão pelo aplicativo e continue
+              curtindo o som da galera no seu dispositivo.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-3">
