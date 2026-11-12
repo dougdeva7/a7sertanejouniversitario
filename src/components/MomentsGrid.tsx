@@ -34,7 +34,7 @@ export function MomentsGrid() {
           className="text-center mb-14"
         >
           <h2 className="font-editorial text-3xl font-bold text-foreground md:text-5xl tracking-tight">
-            Música Para Todos os Seus <span className="text-gradient-red">Momentos</span>
+            Música Para Todos os Seus <span className="text-gradient-brand">Momentos</span>
           </h2>
         </motion.div>
 

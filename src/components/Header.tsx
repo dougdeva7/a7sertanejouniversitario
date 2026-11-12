@@ -11,7 +11,7 @@ const menuItems = [
 
 export function Header() {
   const [open, setOpen] = useState(false);
-  // Cores baseadas na identidade visual: Azul Marinho (#002366) e Vermelho (#E31837)
+  // Laranja extraído do logotipo oficial, com azul marinho como base.
   return (
     <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-500 not-italic bg-white/80 backdrop-blur-md shadow-lg border-b border-white/20">
       <div className="mx-auto flex max-w-7xl items-center justify-center px-4 py-2 lg:px-8 relative">
@@ -21,7 +21,7 @@ export function Header() {
             <a
               key={item.label}
               href={item.link}
-              className="font-body text-xs font-bold uppercase tracking-[0.2em] transition-all duration-300 hover:text-[#E31837] text-[#002366]"
+              className="font-body text-xs font-bold uppercase tracking-[0.2em] transition-all duration-300 hover:text-brand-ink text-[#002366]"
             >
               {item.label}
             </a>
@@ -45,14 +45,14 @@ export function Header() {
             <a
               key={item.label}
               href={item.link}
-              className="font-body text-xs font-bold uppercase tracking-[0.2em] transition-all duration-300 hover:text-[#E31837] text-[#002366]"
+              className="font-body text-xs font-bold uppercase tracking-[0.2em] transition-all duration-300 hover:text-brand-ink text-[#002366]"
             >
               {item.label}
             </a>
           ))}
           <a
             href="#player"
-            className="rounded-full bg-[#E31837] px-6 py-2 text-xs font-black uppercase tracking-wider text-white transition-all duration-300 hover:scale-105 hover:bg-[#002366] hover:shadow-xl"
+            className="rounded-full brand-button bg-secondary px-6 py-2 text-xs font-black uppercase tracking-wider text-white transition-all duration-300 hover:scale-105 hover:bg-brand-hover hover:shadow-xl"
           >
             Ouça Agora
           </a>
@@ -81,7 +81,7 @@ export function Header() {
               key={item.label}
               href={item.link}
               onClick={() => setOpen(false)}
-              className="font-body text-lg font-bold uppercase tracking-widest text-[#002366] transition-colors hover:text-[#E31837]"
+              className="font-body text-lg font-bold uppercase tracking-widest text-[#002366] transition-colors hover:text-brand-ink"
             >
               {item.label}
             </a>
@@ -89,7 +89,7 @@ export function Header() {
           <a
             href="#player"
             onClick={() => setOpen(false)}
-            className="w-full text-center rounded-lg bg-[#E31837] py-4 text-sm font-black uppercase text-white"
+            className="w-full text-center rounded-lg brand-button bg-secondary py-4 text-sm font-black uppercase text-white"
           >
             Ouça Agora Ao Vivo
           </a>

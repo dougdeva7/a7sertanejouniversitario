@@ -55,7 +55,7 @@ export function ContentCards() {
   return (
     <section id="content" className="relative py-24 overflow-hidden">
       <div className="absolute inset-0 bg-linear-to-b from-background via-muted/30 to-background" />
-      <div className="absolute top-20 right-0 w-125 h-125 rounded-full gradient-red-glow opacity-20" />
+      <div className="absolute top-20 right-0 w-125 h-125 rounded-full gradient-brand-glow opacity-20" />
 
       <div className="mx-auto max-w-7xl px-4 relative z-10">
         <motion.div
@@ -65,7 +65,7 @@ export function ContentCards() {
           className="text-center mb-14"
         >
           <h2 className="font-editorial text-3xl font-bold text-foreground md:text-5xl tracking-tight">
-            Sertanejo Universitário <span className="text-gradient-red">do Seu Jeito</span>
+            Sertanejo Universitário <span className="text-gradient-brand">do Seu Jeito</span>
           </h2>
           <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
             Uma trilha sonora para entrar no clima, curtir o momento e deixar a música rolar.
@@ -143,7 +143,7 @@ export function ContentCards() {
                       <button
                         aria-label="Fechar conteúdo"
                         onClick={() => setSelected(null)}
-                        className="absolute top-4 right-4 flex h-10 w-10 items-center justify-center rounded-full glass text-primary-foreground hover:bg-secondary transition-colors"
+                        className="absolute top-4 right-4 flex h-10 w-10 items-center justify-center rounded-full glass text-primary-foreground hover:bg-secondary hover:text-secondary-foreground transition-colors"
                       >
                         <X size={20} />
                       </button>
@@ -160,7 +160,7 @@ export function ContentCards() {
                         <a
                           href="#player"
                           onClick={() => setSelected(null)}
-                          className="mt-6 inline-flex items-center gap-2 rounded-full bg-secondary px-6 py-3 text-sm font-bold uppercase tracking-wider text-secondary-foreground transition-all hover:scale-105 hover:shadow-lg hover:shadow-secondary/30"
+                          className="mt-6 inline-flex items-center gap-2 rounded-full brand-button bg-secondary px-6 py-3 text-sm font-bold uppercase tracking-wider text-secondary-foreground transition-all hover:scale-105 hover:shadow-lg hover:shadow-secondary/30"
                         >
                           ▶ Ouça Agora
                         </a>

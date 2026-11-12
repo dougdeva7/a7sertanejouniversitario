@@ -76,12 +76,12 @@ export function HeroSlideshow() {
           transition={{ delay: 0.5, duration: 1 }}
           className="font-headline text-4xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl"
         >
-          <span className="block">Aqui o sertanejo</span>
-          <span className="block mt-2">
-            <span className="text-gradient-red">não para!</span>
+          <span className="block text-balance">
+            O som da{" "}
+            <span className="text-gradient-brand text-gradient-brand-on-dark">galera!</span>
           </span>
-          <span className="block text-2xl sm:text-3xl md:text-4xl text-primary-foreground font-editorial font-bold tracking-normal mt-2 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
-            O som da galera
+          <span className="block text-2xl sm:text-3xl md:text-4xl text-primary-foreground font-editorial font-bold tracking-normal mt-4 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+            Aqui o sertanejo não para
           </span>
         </motion.h1>
 
@@ -100,7 +100,7 @@ export function HeroSlideshow() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9 }}
           href="#player"
-          className="mt-8 group inline-flex items-center gap-3 rounded-full bg-secondary px-10 py-4 font-display text-base font-bold uppercase tracking-wider text-secondary-foreground shadow-xl shadow-secondary/30 transition-all duration-300 hover:scale-105"
+          className="mt-8 group inline-flex items-center gap-3 rounded-full brand-button bg-secondary px-10 py-4 font-display text-base font-bold uppercase tracking-wider text-secondary-foreground shadow-xl shadow-secondary/30 transition-all duration-300 hover:scale-105"
         >
           <span className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary-foreground/20">
             ▶

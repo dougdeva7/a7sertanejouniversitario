@@ -12,7 +12,7 @@ export function StreamingPlayer() {
       className="relative py-20 overflow-hidden bg-linear-to-b from-background via-muted/50 to-background"
     >
       {/* Background glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-200 h-100 rounded-full gradient-red-glow opacity-30" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-200 h-100 rounded-full gradient-brand-glow opacity-30" />
 
       <div className="mx-auto max-w-5xl px-4 relative z-10">
         <motion.div
@@ -21,12 +21,12 @@ export function StreamingPlayer() {
           viewport={{ once: true }}
           className="text-center mb-10"
         >
-          <span className="inline-flex items-center gap-2 rounded-full bg-secondary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-secondary mb-4">
+          <span className="inline-flex items-center gap-2 rounded-full bg-secondary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-brand-ink mb-4">
             <span className="h-2 w-2 rounded-full bg-secondary animate-pulse" />
             Rádio ao vivo
           </span>
           <h2 className="font-headline text-3xl font-bold text-foreground md:text-5xl tracking-tight">
-            <span className="text-gradient-red">A7 Sertanejo Universitário FM</span>
+            <span className="text-gradient-brand">A7 Sertanejo Universitário FM</span>
           </h2>
           <p className="mt-3 text-muted-foreground text-sm md:text-base">
             O som da galera. Dê o play e curta ao vivo.

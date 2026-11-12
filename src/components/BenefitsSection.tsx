@@ -42,7 +42,8 @@ export function BenefitsSection() {
         >
           <h2 className="font-editorial text-3xl font-bold text-foreground md:text-5xl tracking-tight">
             Por Que Ouvir a{" "}
-            <span className="font-headline text-gradient-red">A7 Sertanejo Universitário FM</span>?
+            <span className="font-headline text-gradient-brand">A7 Sertanejo Universitário FM</span>
+            ?
           </h2>
         </motion.div>
 
@@ -61,7 +62,7 @@ export function BenefitsSection() {
                 <div
                   className={`mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br ${b.color} transition-transform duration-300 group-hover:scale-110`}
                 >
-                  <Icon className="h-7 w-7 text-secondary" strokeWidth={2} />
+                  <Icon className="h-7 w-7 text-brand-ink" strokeWidth={2} />
                 </div>
                 <h3 className="font-editorial text-lg font-bold text-foreground">{b.title}</h3>
                 <p className="mt-2 text-sm text-muted-foreground leading-relaxed">

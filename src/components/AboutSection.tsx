@@ -7,7 +7,7 @@ export function AboutSection() {
     <section id="about" className="relative py-24 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-linear-to-br from-texas-dark via-primary to-texas-dark" />
-      <div className="absolute top-0 right-0 w-150 h-150 rounded-full gradient-red-glow opacity-20" />
+      <div className="absolute top-0 right-0 w-150 h-150 rounded-full gradient-brand-glow opacity-20" />
 
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 lg:grid-cols-2 relative z-10">
         <motion.div
@@ -17,7 +17,8 @@ export function AboutSection() {
           transition={{ duration: 0.7 }}
         >
           <h2 className="font-headline text-4xl font-bold text-primary-foreground md:text-5xl tracking-tight leading-tight">
-            Sua playlist sertaneja <span className="text-gradient-red">não tem fim</span>
+            Sua playlist sertaneja{" "}
+            <span className="text-gradient-brand text-gradient-brand-on-dark">não tem fim</span>
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-primary-foreground/70">
             Tem sempre uma boa música para combinar com o seu momento. A <RadioName /> reúne a
@@ -30,7 +31,7 @@ export function AboutSection() {
           </p>
           <a
             href="#player"
-            className="mt-8 inline-flex items-center gap-3 rounded-full bg-secondary px-8 py-4 font-display text-sm font-bold uppercase tracking-wider text-secondary-foreground shadow-xl shadow-secondary/20 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-secondary/30"
+            className="mt-8 inline-flex items-center gap-3 rounded-full brand-button bg-secondary px-8 py-4 font-display text-sm font-bold uppercase tracking-wider text-secondary-foreground shadow-xl shadow-secondary/20 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-secondary/30"
           >
             <span className="flex h-6 w-6 items-center justify-center rounded-full bg-secondary-foreground/20 text-xs">
               ▶
