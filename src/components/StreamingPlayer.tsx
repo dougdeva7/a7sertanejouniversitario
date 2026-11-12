@@ -25,7 +25,7 @@ export function StreamingPlayer() {
             <span className="h-2 w-2 rounded-full bg-secondary animate-pulse" />
             Rádio ao vivo
           </span>
-          <h2 className="font-display text-3xl font-black text-foreground md:text-5xl tracking-tight">
+          <h2 className="font-headline text-3xl font-bold text-foreground md:text-5xl tracking-tight">
             <span className="text-gradient-red">A7 Sertanejo Universitário FM</span>
           </h2>
           <p className="mt-3 text-muted-foreground text-sm md:text-base">
